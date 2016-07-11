@@ -5,4 +5,4 @@ An app for tracking Galvanize staff and their associate cohorts
 ## Installation
 
 * `npm install`
-* `npm start`
+* `npm run dev-start`
