@@ -2,6 +2,8 @@
 
 An app for tracking Galvanize staff and their associate cohorts
 
+Link to live site => https://galvanize-staff.herokuapp.com/
+
 ## Installation
 
 * Set up a postgres database
