@@ -2,7 +2,12 @@
   <h2>Instructors</h2>
   <ul class='staff-list'>
     {{#each staff}}
-      <li>{{first_name}} {{last_name}}
+      <li>
+        <p>{{first_name}} {{last_name}}</p>
+          <a href='/staff/delete/{{id}}'>
+            <i class='fa fa-remove'></i>
+          </a>
+      </li>
     {{/each}}
   </ul>
   <a class='new' href="staff/new">Add Instructor</a>

@@ -14,12 +14,24 @@ router.get('/new', function(request, response, next) {
   response.render('add-staff');
 });
 
+router.get('/delete/:id', function(request, response, next) {
+  queries.getStaff(request.params.id).then(function(staff) {
+    response.render('delete-staff', { staff: staff });
+  });
+});
+
 router.post('/', function(request, response, next) {
   var staff = {
     first_name: request.body.first_name,
     last_name: request.body.last_name
   };
   queries.addStaff(staff).then(function(staff) {
+    response.redirect('/staff');
+  });
+});
+
+router.delete('/:id', function(request, response, next) {
+  queries.removeStaff(request.params.id).then(function() {
     response.redirect('/staff');
   });
 });

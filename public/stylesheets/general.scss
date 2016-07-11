@@ -1,5 +1,14 @@
+.fa-remove {
+  color: $alert;
+}
+
+.delete {
+  background-color: $alert;
+}
+
 h1 {
   @include primary-header-font;
+  padding: 1rem;
 }
 
 p {

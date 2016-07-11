@@ -1,7 +1,14 @@
+.fa-remove {
+  color: #bf4040; }
+
+.delete {
+  background-color: #bf4040; }
+
 h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  padding: 1rem; }
 
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;

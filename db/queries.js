@@ -8,6 +8,14 @@ module.exports = {
 
   addStaff: function(staff) {
     return knex('staff').insert(staff);
+  },
+
+  getStaff: function(id) {
+    return knex('staff').where({ id: id }).select().first();
+  },
+
+  removeStaff: function(id) {
+    return knex('staff').where({ id: id }).del();
   }
 
 };
