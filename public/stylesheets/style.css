@@ -1,0 +1,21 @@
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700; }
+
+p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+header {
+  background-color: #4d4d4d;
+  color: #E28D05; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; }
+
+/*# sourceMappingURL=style.css.map */
