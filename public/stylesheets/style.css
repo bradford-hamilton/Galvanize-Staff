@@ -8,6 +8,13 @@ p {
   font-size: 1.5rem;
   font-weight: 400; }
 
+a {
+  text-decoration: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center; }
+
 input, label {
   display: block;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -21,6 +28,9 @@ input {
   margin-bottom: 1rem; }
 
 .new {
+  color: #fff;
+  padding: 1rem;
+  display: block;
   background-color: #40bf40;
   transition: background-color 300ms; }
   .new:hover {

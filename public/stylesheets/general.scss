@@ -6,6 +6,12 @@ p {
   @include body-font;
 }
 
+a {
+  text-decoration: none;
+  @include body-font;
+  text-align: center;
+}
+
 input, label {
   display: block;
   @include body-font;
@@ -20,6 +26,9 @@ input {
 }
 
 .new {
+  color: $white;
+  padding: 1rem;
+  display: block;
   background-color: $success;
   transition: background-color 300ms;
   &:hover {
