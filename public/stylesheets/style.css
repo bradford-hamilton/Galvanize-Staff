@@ -8,6 +8,33 @@ p {
   font-size: 1.5rem;
   font-weight: 400; }
 
+input, label {
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+label {
+  font-size: 1rem; }
+
+input {
+  margin-bottom: 1rem; }
+
+.new {
+  background-color: #40bf40;
+  transition: background-color 300ms; }
+  .new:hover {
+    background-color: #66cc66; }
+
+input[type=submit], button {
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 1px #4d4d4d;
+  cursor: pointer;
+  width: 100%; }
+
 header {
   background-color: #4d4d4d;
   color: #E28D05; }

@@ -10,4 +10,18 @@ router.get('/', function(request, response, next) {
   });
 });
 
+router.get('/new', function(request, response, next) {
+  response.render('add-staff');
+});
+
+router.post('/', function(request, response, next) {
+  var staff = {
+    first_name: request.body.first_name,
+    last_name: request.body.last_name
+  };
+  queries.addStaff(staff).then(function(staff) {
+    response.redirect('/staff');
+  });
+});
+
 module.exports = router;
