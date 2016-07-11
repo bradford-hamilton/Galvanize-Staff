@@ -6,17 +6,17 @@ var queries = require('../db/queries');
 /* GET users listing. */
 router.get('/', function(request, response, next) {
   queries.listStaff().then(function(staff) {
-    response.render('list-staff', { staff: staff });
+    response.render('staff/list-staff', { staff: staff });
   });
 });
 
 router.get('/new', function(request, response, next) {
-  response.render('add-staff');
+  response.render('staff/add-staff');
 });
 
 router.get('/delete/:id', function(request, response, next) {
   queries.getStaff(request.params.id).then(function(staff) {
-    response.render('delete-staff', { staff: staff });
+    response.render('staff/delete-staff', { staff: staff });
   });
 });
 

@@ -1,0 +1,15 @@
+<section class='staff'>
+  <h2>Cohorts</h2>
+  <ul class='staff-list'>
+    {{#each cohorts}}
+      <li>
+        <p>Cohort name: {{name}}</p>
+        <p>{{student_count}}</p>
+          <a href='/cohorts/delete/{{id}}'>
+            <i class='fa fa-remove'></i>
+          </a>
+      </li>
+    {{/each}}
+  </ul>
+  <a class='new' href="/cohorts/new">Add Cohort</a>
+</section>
