@@ -1,0 +1,14 @@
+.staff {
+  h2 {
+    @include secondary-header-font;
+    margin-bottom: 1rem;
+  }
+  .staff-list {
+    li {
+      padding: 1rem;
+      margin: 0.5rem 0;
+      background-color: $light-grey;
+      @include body-font;
+    }
+  }
+}

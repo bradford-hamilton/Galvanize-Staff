@@ -18,4 +18,18 @@ main {
   align-items: center;
   min-height: 80vh; }
 
+.staff h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem; }
+
+.staff .staff-list li {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #cccccc;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400; }
+
 /*# sourceMappingURL=style.css.map */
